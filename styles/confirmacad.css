@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&family=Sora:wght@100;400;700&display=swap");
+
+* {
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background: #1b1b21;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-home{
+  background-image: url(../img/celerbanner.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-home p{
+  font-size: 20px;
+}
+
+.logo {
+  width: 100%;
+  height: 100px;
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  gap: 40px;
+}
+
+.title h1{
+  margin: 0;
+}
+
+.campos{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#sobre{
+  padding-bottom: 10px;
+  border-bottom: #003bd3 2px solid;
+}
+
+.title p{
+  font-size: 18px;
+}
+
+.subtitle{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.subtitle p{
+  text-decoration: underline #003bd3 2px;
+  font-weight: 700;
+  margin: 0px;
+  font-size: 18px;  
+  text-align: right;
+}
+
+.vantagem{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.inscreva{
+  background: #003bd3;
+  width: 100%;  
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles-chama{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.up p{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.down p{
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+
+.botao{
+  margin-top: 20px;
+}
+
+.botao a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 57px;
+  gap: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #003bd3;
+  cursor: pointer;
+  border: #003bd3 1px solid;
+}
+
+.botao a:hover{
+    color: white;
+    background: #003bd3;
+    border: #ffffff 1px solid;
+}
+
+.proximascompeticoes{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.grade {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+  padding-bottom: 40px;
+}
+
+.competicao {
+  background: #c4c4c4;
+  border-radius: 10px;
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)),
+    url(../img/banner-proshapper-novo.png);
+}
+
+.banner-comp{
+    
+    position: absolute;
+    width: 130px;
+    height: 130px;
+}
+
+.banner-comp img{
+    filter:brightness(40%);
+    border-radius: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+.dados{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.competicao a{
+  text-decoration: none;
+  color: white;
+}
